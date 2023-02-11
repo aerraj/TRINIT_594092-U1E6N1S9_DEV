@@ -2,6 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -37,8 +40,20 @@ input[type="text"] {
 }
 
 footer {
+  width: 100vw;
+  height: 5rem;
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  margin-top: auto;
+}
+
+footer p {
   text-align: center;
+  font: 1.2em sans-serif;
+  text-transform: capitalize;
+  line-height: 5rem;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
