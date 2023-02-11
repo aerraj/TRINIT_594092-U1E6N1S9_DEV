@@ -4,9 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- javascript addition link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- For Adding google fonts     -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
     <title>AgriPro</title>
 </head>
 
@@ -56,12 +66,17 @@
         </div>
 
     </nav>
-    <div class="container-fluid" class="card">
-        <div class="row">
-            <div class="col-12 text-center mt-5">
-                <h1>Agricultural Innovation Platform</h1>
-            </div>
+
+    <!-- section for showing the headline of our website -->
+    <section class="Heading-container">
+        <div>
+            <h1 class="main-heading">AGRICULTURAL INNOVATION PLATFORM</h1>
         </div>
+    </section>
+
+
+    <!-- Section for Showing the details for benefits for both sides -->
+    <div class="container-fluid card Showing-details" >
         <div class="row mt-5">
             <div class="col-6">
                 <div class="card text-white bg-primary">
@@ -109,8 +124,95 @@
                 </div>
             </div>
         </div>
-
     </div>
+
+
+
+
+
+    <!-- // Section for Card container -->
+
+    <section class="services-check">
+        <div class="container">
+            <div class="row align-items-start">
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://store-images.s-microsoft.com/image/apps.16894.c02476d2-2378-4f60-8290-b6d4b3842643.79a2ef6a-4775-4c79-8d93-9caf077660eb.1bbd88a4-0a17-4750-91a0-cd7d98f58e9d" class="card-img-top" alt="Weather-report">
+                    <div class="card-body">
+                      <h5 class="card-title">Weather-Report</h5>
+                      <p class="card-text">Get the correct weather prediction of all over the year</p>
+                      <a href="#" class="btn btn-primary">Weather Check</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfjbs3-DpWUU7ESOhmt91G89_d9A8Yun997A&usqp=CAU" class="card-img-top" alt="Government-schemes">
+                    <div class="card-body">
+                      <h5 class="card-title">Government-Schemes</h5>
+                      <p class="card-text">Compiled Information of all government schemes and guide</p>
+                      <a href="#" class="btn btn-primary">Let's Know</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29Bh0J5EEQ29hEw5k4tfDsOq-tsPOLcp2TQ&usqp=CAU" class="card-img-top" alt="Innovation">
+                    <div class="card-body">
+                      <h5 class="card-title">Innovations</h5>
+                      <p class="card-text">Better income by getting knowledge of latest innovation .</p>
+                      <a href="#" class="btn btn-primary">Click Here</a>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+       
+
+    
+
+
+
+    <!-- Section for showing Carousel -->
+
+    <section class="Carousel-section">
+        <div id="carouselExampleControls" class="carousel slide " data-bs-ride="carousel">
+            <h1 class="Carousel-heading">Listen from the Farmers</h1>
+            <div class="carousel-inner">
+              <div class="carousel-item active  items-contained">
+    
+                <h2>Harsh Vardhan, Gujrat</h2>
+                <p>Very helpful, I got to know about crop rotation</p>
+              </div>
+              <div class="carousel-item items-contained">
+                <h2>Harshit Mehta, Bengal</h2>
+                <p>I got to know about many schemes</p>
+              </div>
+              <div class="carousel-item items-contained">
+                <h2>Mohit , Nepal</h2>
+                <p>Increased benefit by switching crops</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+
+
+    <!-- Footer section -->
+
     <footer>
         <p>&copy; Gardening Aspirations 2023</p>
     </footer>
@@ -124,6 +226,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-</body>
 
+
+
+
+
+</body>
 </html>
