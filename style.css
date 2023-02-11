@@ -236,4 +236,14 @@ header {
       margin: 0;
       padding: 0;
     }
-    
+    .vid {
+  display: flex;
+  flex-direction: left;
+  margin-left: 10%;
+}
+iframe {
+  padding: 3px;
+  margin: 2px;
+  border: 1px;
+}
+
